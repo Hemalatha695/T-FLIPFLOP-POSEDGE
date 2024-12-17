@@ -36,6 +36,18 @@ From the above characteristic table, we can directly write the next state equati
 Developed by: Hemalatha.A
 RegisterNumber:24900150
 */
+ module exp6(T,clk,Q,Qbar);
+ input T,clk;
+ output reg Q;
+ output reg Qbar;
+ initial Q=0;
+ initial Qbar=1;
+ always @(posedge clk)
+ begin 
+Q=((T&(~Q))|((~T)&Q));
+ Qbar=~Q;
+ end
+ endmodule
 
 **RTL LOGIC FOR FLIPFLOPS**
 ![LOGIC DIAGRAM 9](https://github.com/user-attachments/assets/3ea0bc69-16cc-4cfb-b661-4b3cb05b3283)
