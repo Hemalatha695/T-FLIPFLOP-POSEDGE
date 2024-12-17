@@ -48,12 +48,12 @@ Q=((T&(~Q))|((~T)&Q));
  Qbar=~Q;
  end
  endmodule
-
+ 
 **RTL LOGIC FOR FLIPFLOPS**
-![LOGIC DIAGRAM 9](https://github.com/user-attachments/assets/3ea0bc69-16cc-4cfb-b661-4b3cb05b3283)
+![T flip flop](https://github.com/user-attachments/assets/e7030673-d1dd-4a9a-b12b-a36db16b9dad)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-![RTL 9](https://github.com/user-attachments/assets/c3ea77ac-d674-4b45-aba6-46803df74c9d)
+![T flip flop RTL 9](https://github.com/user-attachments/assets/fd3ad209-d39b-48ec-ab97-b7aca3a37137)
 
 **RESULTS**
  The D Flip-Flop implemented in verilog successfully validates its functionality according to
